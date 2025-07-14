@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DreamWear</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #e0f7f7;
+    }
+
+    header {
+      background-color: #00b3b3;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      background-color: #001f1f;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #00f0f0;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .hero {
+      background: linear-gradient(to bottom, #001f1f, #000);
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: #00ffff;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #b2fefc;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      background-color: #0a0a0a;
+    }
+
+    .product {
+      background-color: #002f2f;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .product h3 {
+      color: #00ffff;
+      margin: 15px 0 10px;
+    }
+
+    .product p {
+      color: #c0ffff;
+    }
+
+    footer {
+      background-color: #001010;
+      text-align: center;
+      padding: 20px;
+      color: #00cccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DreamWear</h1>
+    <p>Wear Your Dreams</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">Collections</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Step into Style</h2>
+    <p>Bold, sleek, and dream-inspired fashion</p>
+  </section>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x300/00b3b3/ffffff?text=T-Shirt" alt="DreamWear T-Shirt" />
+      <h3>Classic Tee</h3>
+      <p>Turquoise trim, ultra-soft cotton. $29.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x300/001f1f/00ffff?text=Hoodie" alt="DreamWear Hoodie" />
+      <h3>Chill Hoodie</h3>
+      <p>Cool comfort with a futuristic edge. $59.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/250x300/003f3f/ffffff?text=Joggers" alt="DreamWear Joggers" />
+      <h3>Night Joggers</h3>
+      <p>Style meets street. Dream on the go. $49.99</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 DreamWear. All rights reserved.
+  </footer>
+
+</body>
+</html>
